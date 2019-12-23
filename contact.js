@@ -25,7 +25,7 @@ function validateForm() {
         document.getElementById('status').innerHTML = "Message cannot be empty";
         return false;
     }
-    document.getElementById('status').innerHTML = "Sending...";
+    
     document.getElementById('contact-form').submit();
     
-    }
+}

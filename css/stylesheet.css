@@ -22,19 +22,25 @@ body {
 
 @font-face 
 {
-    font-family: myFontBold;
-    src: url(../fonts/CormorantInfant-SemiBold.ttf);
+    font-family: robot;
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
 .myFont
 {
     font-family: myFont;
-    text-shadow: 1px 1px 2px goldenrod;
 }
 
-.myFontBold
+.myFontShadow
 {
-    font-family: myFontBold;
+    font-family: myFont;
+    text-shadow: 1px 1px 2px #D79A10;
+}
+
+
+.text
+{
+    font-family: robot;
 }
 
  .hMarginTop
