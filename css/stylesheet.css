@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    font-family: myFirstFont;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face 
+{
+    font-family: myFont;
+    src: url(../fonts/CormorantInfant-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: myFontBold;
+    src: url(../fonts/CormorantInfant-SemiBold.ttf);
+}
+
+.myFont
+{
+    font-family: myFont;
+    text-shadow: 1px 1px 2px goldenrod;
+}
+
+.myFontBold
+{
+    font-family: myFontBold;
+}
+
+ .hMarginTop
+{
+    margin: 7% 0 0 0;
+}
+
+.hMarginBot
+{
+    margin: 0 0 4% 0;
+}
+
+.header
+{
+    width: 100%;
+    height: 121px;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.footer
+{
+    width: 100%;
+    background-color: #ffffd4;
+    clear: both;
+}
+
+#marginContact
+{
+    padding: 2% 0 2% 0;
+}
+
+#networks
+{
+    height: 5%;
+    width: 15%;
+    border: solid  rgb(127, 11, 4) 1px;
+    margin-bottom: 2%;
+}
+
+#marginInfos
+{
+    margin: 1% 0 0 2%;
+}
+
+#sendButton
+{
+    width: 100%;
+}
+
+.row .col-md-12 .md-form input
+{
+    margin: 1% 0 1% 0 ;
+    background-color: rgb(217, 217, 217);
+}
+
+.row .col-md-12 .md-form textarea
+{
+    margin: 0 0 1% 0;
+    background-color: rgb(217, 217, 217);
+}
+
+.btn, .btn-primary
+{
+    background-color: rgb(217, 217, 217);
+    border:none;
+}
+
+#copyright
+{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    clear: both;
+}
+
+.row
+{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.menu
+{
+    margin-left: 21%;
+    margin-right: 21%;
+    height: 100%;
+}
+
+.button
+{
+    color: white;
+    text-align: center;
+}
+
+a
+{
+    color: white;
+    padding: 0;
+}
+
+
+
+
+nav{
+    margin: auto;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.navbar ul:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav > ul li:hover .sous
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
+
+.menu ul
+{
+    padding: 0;
+    height: auto;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li
+{
+    text-align: center;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-item
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-item a
+{
+    color: white;
+    padding: 10px;
+}
+
+.navbar .navbar-nav .nav-item a:hover
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.83);
+    position: absolute;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu 
+{
+    background-color: rgba(54, 54, 54, 0.83);
+    color: black;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li
+{
+    text-align: left;
+}
+
+.clearfix
+{
+    overflow: auto;
+    zoom: 1;
+}
+
+.aPropos{
+    width: 100%;    
+    background-color: #ffffd4;
+    padding: 3% 0 3% 0;
+}
+
+.realisations{
+    width: 100%;
+    padding: 3% 0 3% 0;
+}
+.marginContent
+{
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+
+.marginCenterRea
+{
+    margin: 0 2% 0 2%;
+}
+
+#bottomRightReaPro
+{
+    margin-top: 9%;
+}
+
+#bottomLeftReaPerso
+{
+    margin-top: 16%;
+}
+
+#topLeftReaPro
+{
+    margin-top: -1%;
+}
+
+#marginRightReaPro
+{
+    margin-top: 2%;
+}
+
+#marginRightReaPerso
+{
+    margin-top: -5px;
+}
+
+#realisationPerso
+{
+    margin-top: -13%;
+}
+
+p
+{
+    text-align: left;
+}
+
+#copyright .row .col-md-12 p
+{
+    text-align: center;
+}
+
+#banner
+{
+    width: 100%;
+    height: 100%;
+}
+
+.imgBottom
+{
+    margin-top: 4%;
+}
+
+#templeRoche1
+{
+    width: 100%;
+    height: 100%;
+}
+
+#templeRoche2
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+#bandeau
+{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    margin-top: -13%;
+}
+.conteneur
+{
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.col-md-12
+{
+    padding: 0;
+}
+
+.col-md-4
+{
+    padding: 15px;
+}
+
+.col-md-3
+{
+    padding: 0;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
